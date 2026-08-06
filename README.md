@@ -29,6 +29,8 @@ Use **Continue**, click glowing exits on the map, the route list, or ←/→ key
 
 Art + previews live under `assets/maps/samples/`. Playable metadata (spawn, walk polygons, hotspots) lives under `data/maps/`.
 
+Style target: soft brownish sketch underdrawing + translucent watercolor washes, elevated isometric staging, warm earth tones — closer to SaGa Frontier 2’s scanned painted screens than photoreal concept art.
+
 ## Repo layout
 
 ```

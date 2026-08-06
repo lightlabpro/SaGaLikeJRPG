@@ -7,3 +7,6 @@ __pycache__/
 *.pyc
 .idea/
 .vscode/
+
+# Do not commit third-party game screenshots used only as local style references
+assets/maps/style-refs/
