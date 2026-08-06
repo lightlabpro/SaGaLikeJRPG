@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "style": "handpainted-watercolor",
+  "resolution": { "width": 1536, "height": 1024 },
+  "maps": [
+    {
+      "id": "town-havenbrook",
+      "name": "Havenbrook",
+      "type": "town",
+      "path": "town-havenbrook.json"
+    },
+    {
+      "id": "forest-whisperwood",
+      "name": "Whisperwood",
+      "type": "field",
+      "path": "forest-whisperwood.json"
+    },
+    {
+      "id": "castle-ironveil",
+      "name": "Ironveil Castle",
+      "type": "castle",
+      "path": "castle-ironveil.json"
+    },
+    {
+      "id": "mountain-frostpass",
+      "name": "Frostpass",
+      "type": "field",
+      "path": "mountain-frostpass.json"
+    },
+    {
+      "id": "overworld-westmarch",
+      "name": "Westmarch",
+      "type": "overworld",
+      "path": "overworld-westmarch.json"
+    },
+    {
+      "id": "riverside-millhaven",
+      "name": "Millhaven",
+      "type": "town",
+      "path": "riverside-millhaven.json"
+    }
+  ]
+}

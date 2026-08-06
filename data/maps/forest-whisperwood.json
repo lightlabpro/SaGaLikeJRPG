@@ -1,0 +1,88 @@
+{
+  "id": "forest-whisperwood",
+  "name": "Whisperwood",
+  "type": "field",
+  "description": "A winding forest path under a soft canopy. A creek and footbridge break the green hush — classic SF2 field-screen energy.",
+  "style": "handpainted-watercolor",
+  "inspiredBy": "SaGa Frontier 2 forest / field backgrounds",
+  "background": {
+    "image": "assets/maps/samples/forest-whisperwood/background.png",
+    "preview": "assets/maps/samples/forest-whisperwood/preview.jpg",
+    "thumbnail": "assets/maps/samples/forest-whisperwood/thumbnail.jpg",
+    "width": 1536,
+    "height": 1024
+  },
+  "spawn": { "x": 0.18, "y": 0.70 },
+  "walkableRegions": [
+    {
+      "id": "main-path",
+      "label": "Forest path",
+      "polygon": [
+        [0.08, 0.68],
+        [0.35, 0.62],
+        [0.55, 0.58],
+        [0.78, 0.52],
+        [0.92, 0.48],
+        [0.92, 0.62],
+        [0.75, 0.68],
+        [0.50, 0.74],
+        [0.30, 0.78],
+        [0.08, 0.80]
+      ]
+    },
+    {
+      "id": "bridge",
+      "label": "Footbridge",
+      "polygon": [
+        [0.48, 0.52],
+        [0.62, 0.50],
+        [0.62, 0.60],
+        [0.48, 0.62]
+      ]
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "exit-west",
+      "label": "To Havenbrook",
+      "type": "exit",
+      "x": 0.08,
+      "y": 0.72,
+      "radius": 0.05,
+      "target": "town-havenbrook"
+    },
+    {
+      "id": "exit-east",
+      "label": "To Frostpass",
+      "type": "exit",
+      "x": 0.92,
+      "y": 0.52,
+      "radius": 0.05,
+      "target": "mountain-frostpass"
+    },
+    {
+      "id": "creek",
+      "label": "Shallow creek",
+      "type": "examine",
+      "x": 0.55,
+      "y": 0.58,
+      "radius": 0.04,
+      "target": null
+    }
+  ],
+  "encounters": {
+    "enabled": true,
+    "rate": 0.08,
+    "table": "forest-common"
+  },
+  "palette": {
+    "foliage": "#6B8F5E",
+    "trunk": "#6B5344",
+    "path": "#BFA887",
+    "water": "#7BA3B0",
+    "mist": "#C5CBBE",
+    "shadow": "#4A5548"
+  },
+  "mood": "hushed, dappled light, soft mist",
+  "musicCue": "field-forest"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "riverside-millhaven",
+  "name": "Millhaven",
+  "type": "town",
+  "description": "A riverside inn and mill at dusk. Soft lantern light, a water wheel, and a docked boat — a rest stop between chapters.",
+  "style": "handpainted-watercolor",
+  "inspiredBy": "SaGa Frontier 2 inn / village riverside scenes",
+  "background": {
+    "image": "assets/maps/samples/riverside-millhaven/background.png",
+    "preview": "assets/maps/samples/riverside-millhaven/preview.jpg",
+    "thumbnail": "assets/maps/samples/riverside-millhaven/thumbnail.jpg",
+    "width": 1536,
+    "height": 1024
+  },
+  "spawn": { "x": 0.35, "y": 0.70 },
+  "walkableRegions": [
+    {
+      "id": "yard",
+      "label": "Inn yard and path",
+      "polygon": [
+        [0.18, 0.58],
+        [0.55, 0.55],
+        [0.62, 0.78],
+        [0.15, 0.82]
+      ]
+    },
+    {
+      "id": "dock",
+      "label": "Wooden dock",
+      "polygon": [
+        [0.55, 0.62],
+        [0.78, 0.60],
+        [0.78, 0.72],
+        [0.55, 0.74]
+      ]
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "inn-door",
+      "label": "Millhaven Inn",
+      "type": "door",
+      "x": 0.32,
+      "y": 0.52,
+      "radius": 0.04,
+      "target": null
+    },
+    {
+      "id": "mill",
+      "label": "Water mill",
+      "type": "examine",
+      "x": 0.68,
+      "y": 0.48,
+      "radius": 0.04,
+      "target": null
+    },
+    {
+      "id": "boat",
+      "label": "Moored boat",
+      "type": "examine",
+      "x": 0.72,
+      "y": 0.68,
+      "radius": 0.035,
+      "target": null
+    },
+    {
+      "id": "exit-road",
+      "label": "Road to Havenbrook",
+      "type": "exit",
+      "x": 0.12,
+      "y": 0.70,
+      "radius": 0.05,
+      "target": "town-havenbrook"
+    }
+  ],
+  "palette": {
+    "timber": "#6B4A32",
+    "plaster": "#DCC8A8",
+    "water": "#5E8F9A",
+    "lantern": "#E8B86A",
+    "reeds": "#7A8F62",
+    "sky": "#C4A890"
+  },
+  "mood": "golden hour, quiet water, rest",
+  "musicCue": "inn-evening"
+}

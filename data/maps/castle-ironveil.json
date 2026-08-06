@@ -1,0 +1,76 @@
+{
+  "id": "castle-ironveil",
+  "name": "Ironveil Castle",
+  "type": "castle",
+  "description": "A stone courtyard behind ironwood gates. Training grounds, a well, and archways into the keep — a courtly hub for mid-game story beats.",
+  "style": "handpainted-watercolor",
+  "inspiredBy": "SaGa Frontier 2 castle / court interiors and courtyards",
+  "background": {
+    "image": "assets/maps/samples/castle-ironveil/background.png",
+    "preview": "assets/maps/samples/castle-ironveil/preview.jpg",
+    "thumbnail": "assets/maps/samples/castle-ironveil/thumbnail.jpg",
+    "width": 1536,
+    "height": 1024
+  },
+  "spawn": { "x": 0.50, "y": 0.78 },
+  "walkableRegions": [
+    {
+      "id": "courtyard",
+      "label": "Main courtyard",
+      "polygon": [
+        [0.22, 0.45],
+        [0.78, 0.45],
+        [0.82, 0.85],
+        [0.18, 0.85]
+      ]
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "gate",
+      "label": "Main gate",
+      "type": "exit",
+      "x": 0.50,
+      "y": 0.38,
+      "radius": 0.05,
+      "target": "overworld-westmarch"
+    },
+    {
+      "id": "keep-door",
+      "label": "Keep entrance",
+      "type": "door",
+      "x": 0.72,
+      "y": 0.48,
+      "radius": 0.04,
+      "target": null
+    },
+    {
+      "id": "training",
+      "label": "Training yard",
+      "type": "examine",
+      "x": 0.28,
+      "y": 0.58,
+      "radius": 0.04,
+      "target": null
+    },
+    {
+      "id": "well",
+      "label": "Courtyard well",
+      "type": "examine",
+      "x": 0.42,
+      "y": 0.55,
+      "radius": 0.035,
+      "target": null
+    }
+  ],
+  "palette": {
+    "stone": "#8A8A86",
+    "ivy": "#6E8B62",
+    "wood": "#7A5A3E",
+    "light": "#D4B896",
+    "sky": "#A9B8C4",
+    "shadow": "#5A5A58"
+  },
+  "mood": "austere stone, soft afternoon gold",
+  "musicCue": "castle-court"
+}

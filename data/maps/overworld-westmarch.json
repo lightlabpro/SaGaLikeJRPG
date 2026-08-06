@@ -1,0 +1,80 @@
+{
+  "id": "overworld-westmarch",
+  "name": "Westmarch",
+  "type": "overworld",
+  "description": "Regional atlas of Westmarch — towns, forests, rivers, and the castle linked by painted roads. Use this as the hub between location screens.",
+  "style": "handpainted-watercolor",
+  "inspiredBy": "SaGa Frontier 2 world / region map presentation",
+  "background": {
+    "image": "assets/maps/samples/overworld-westmarch/background.png",
+    "preview": "assets/maps/samples/overworld-westmarch/preview.jpg",
+    "thumbnail": "assets/maps/samples/overworld-westmarch/thumbnail.jpg",
+    "width": 1536,
+    "height": 1024
+  },
+  "spawn": { "x": 0.42, "y": 0.58 },
+  "walkableRegions": [
+    {
+      "id": "roads",
+      "label": "Road network",
+      "note": "Overworld movement follows painted roads; refine with a path mask"
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "node-havenbrook",
+      "label": "Havenbrook",
+      "type": "location",
+      "x": 0.40,
+      "y": 0.58,
+      "radius": 0.04,
+      "target": "town-havenbrook"
+    },
+    {
+      "id": "node-whisperwood",
+      "label": "Whisperwood",
+      "type": "location",
+      "x": 0.58,
+      "y": 0.48,
+      "radius": 0.04,
+      "target": "forest-whisperwood"
+    },
+    {
+      "id": "node-ironveil",
+      "label": "Ironveil Castle",
+      "type": "location",
+      "x": 0.62,
+      "y": 0.28,
+      "radius": 0.04,
+      "target": "castle-ironveil"
+    },
+    {
+      "id": "node-frostpass",
+      "label": "Frostpass",
+      "type": "location",
+      "x": 0.70,
+      "y": 0.22,
+      "radius": 0.04,
+      "target": "mountain-frostpass"
+    },
+    {
+      "id": "node-millhaven",
+      "label": "Millhaven",
+      "type": "location",
+      "x": 0.28,
+      "y": 0.62,
+      "radius": 0.04,
+      "target": "riverside-millhaven"
+    }
+  ],
+  "palette": {
+    "parchment": "#E8DCC4",
+    "forest": "#6E8F5E",
+    "water": "#6A9BB0",
+    "road": "#B8956A",
+    "mountain": "#9A96A0",
+    "ink": "#4A4238"
+  },
+  "mood": "storybook atlas, soft parchment, invitation to wander",
+  "musicCue": "overworld-theme"
+}
