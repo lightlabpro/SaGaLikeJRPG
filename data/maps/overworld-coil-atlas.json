@@ -1,0 +1,29 @@
+{
+  "id": "overworld-coil-atlas",
+  "name": "The Coil",
+  "type": "overworld",
+  "description": "Ring-continent atlas around Aetherwell — brass megacity wards, scrap marches, sky-docks, and the Volt wound. Design preview pending approval.",
+  "style": "handpainted-watercolor",
+  "setting": "steampunk-cyberpunk",
+  "status": "design-preview",
+  "background": {
+    "image": "assets/maps/samples/overworld-coil-atlas/background.png",
+    "preview": "assets/maps/samples/overworld-coil-atlas/preview.jpg",
+    "thumbnail": "assets/maps/samples/overworld-coil-atlas/thumbnail.jpg",
+    "width": 1536,
+    "height": 1024
+  },
+  "regions": [
+    "lumen-spire",
+    "chromehaven",
+    "rust-marches",
+    "glassmere",
+    "skyhook-docks",
+    "cinder-reaches",
+    "pale-grid",
+    "aetherwell"
+  ],
+  "hotspots": [],
+  "mood": "beautiful and sick — storybook industrial apocalypse",
+  "musicCue": "coil-atlas"
+}
