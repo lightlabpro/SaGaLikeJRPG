@@ -1,6 +1,6 @@
 # SaGaLikeJRPG
 
-A SaGa Frontier 2–structured JRPG (~25–30 hours, scenario-driven) with **handpainted watercolor screens** and a **futuristic steampunk industrial** setting (FF7-adjacent; cyberpunk neon toned down).
+A SaGa Frontier 2–structured JRPG (~25–30 hours, scenario-driven) with **handpainted watercolor screens** and a **futuristic steampunk + cyberpunk** setting on one contiguous industrial continent.
 
 > **Current milestone:** Approve **story** + **world map** before area art.  
 > See [`docs/story.md`](docs/story.md) and [`docs/world-map.md`](docs/world-map.md).  

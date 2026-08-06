@@ -1,95 +1,100 @@
 # World Map Design — **The Coil**
 
 > **Status:** Draft for approval (pair with `docs/story.md`).  
-> **Art direction:** SaGa Frontier 2 watercolor *technique* + **steampunk industrial** subject (FF7-adjacent; cyberpunk neon toned down).  
+> **Art direction:** SaGa Frontier 2 watercolor *technique* + **steampunk + cyberpunk** industrial subject (brass *and* soft neon).  
 > **Do not** start individual area screens until this map and the story bible are approved.
 
 ---
 
 ## World in one paragraph
 
-**The Coil** is an **archipelago world**, not a single packed megacity. Wide seas separate the lands. At the center floats **Aetherwell Isle** — a circular industrial crater-city where Helix drills **Volt**. Distant islands hold the capital gardens, sky-docks, scrap desert, forge coast, flooded harbors, and pale ruins. Travel means roads, ferries, and airships across empty water.
+**The Coil** is **one large contiguous continent** — almost no open ocean. Districts and biomes share borders, separated by **forests**, **scrap belts**, and **abandoned industrial zones** rather than seas. At the center sits **Aetherwell**, an industrial crater-city where Helix drills **Volt**. Capital neon-gardens, undercity sprawl, live forges, silent rust wastes, and overgrown wilds all sit on the same landmass.
 
 ---
 
 ## Cartographic read
 
-1. **Scenario Board** picks a chapter → painted location screen.  
-2. **Coil Atlas** is the painted hub — islands + sea routes, not open 3D.  
-3. Each island/node opens a cluster of handpainted screens.
+1. **Scenario Board** → painted location screen.  
+2. **Coil Atlas** = one-land hub with roads/pipes (not open 3D, not archipelago).  
+3. Each node opens a cluster of handpainted screens.
 
 ```
-        [Skyhook Isle]          [Pale Grid Isle]
-                 \                 /
-                  \               /
-    [Glassmere] ---- [AETHERWELL ISLE] ---- [Cinder Reach]
-         Archipelago      (crater city)         (forge coast)
-                  /               \
-                 /                 \
-        [Rust Marches]        [Lumen Spire]
-         (scrap continent)     (north highland)
+              [Forest Veil]
+                    |
+ [Chromehaven] — [Lumen Spire] — [Pale Grid]
+        |         [AETHERWELL]         |
+ [Ash-yard]    (industrial crater)  [Cinder]
+        |              |               |
+   [Rust Marches] — [Deepwood] ——-----+
+                    (forest belt)
 ```
 
 ---
 
-## Geography rules (atlas must obey)
+## Geography rules
 
-1. **Scale:** Large empty sea / parchment between lands — regions feel days apart.  
-2. **Separation:** Prefer separate islands/continents over touching wedges.  
-3. **Aetherwell:** Central island crater **filled with industrial architecture** (factories, stacks, derricks, terraces) — not an empty glowing pool.  
-4. **Steampunk first:** Brass, iron, steam, smoke — minimal neon.
+1. **One continent** filling most of the atlas — **almost no water** (tiny canals/rivers OK).  
+2. **Buffers = forests & abandoned belts**, not oceans.  
+3. **Aetherwell crater** is packed with industrial architecture (not an empty glow pit).  
+4. **Steampunk + cyberpunk:** brass, steam, smoke, **and** soft neon magenta/cyan watercolor pops on living cities.  
+5. Regions stay visually distinct (silhouette + color) even when adjacent.
 
 ---
 
-## Lands
+## Regions
 
-| Land | Identity | Separation |
+| Region | Identity | Buffer / neighbor note |
 | --- | --- | --- |
-| **Aetherwell Isle** | Industrial crater-city; Volt drill heart; densest architecture | Center, surrounded by sea |
-| **Lumen Spire** | Cream palace-city on green highland | Far north across channel |
-| **Skyhook Isle** | Mooring masts + airships | Northwest ocean |
-| **Glassmere Archipelago** | Teal harbor islands, docks | West chain |
-| **Rust Marches** | Large scrap desert, sparse wrecks, open dunes | South continent |
-| **Cinder Reach** | Volcanic forge coast, chimneys, slag | East island |
-| **Pale Grid Isle** | Broken machine arches, grey-green quiet | Northeast plateau isle |
-| **Chromehaven** | Working brass town on Aetherwell’s outer rim / nearby islet | Near crater rim (local hub) |
+| **Aetherwell** | Crater factory-city; derricks, stacks, terraces; Volt glow between buildings | Center of the continent |
+| **Lumen Spire** | Capital towers, gardens, neon accents | North of crater |
+| **Chromehaven** | Dense neon-brass undercity sprawl | West |
+| **Forest Veil** | Misty overgrown woodland, ruined watchtowers | Northwest wilds |
+| **Deepwood** | Darker forest belt, bio-glow flora | Southeast / south belt |
+| **Ash-yard** | **Abandoned** silent factories, broken stacks, no smoke | Southwest rust wastes |
+| **Rust Marches** | Scrap dunes & dig sites (still on the continent) | South |
+| **Cinder Reaches** | Live forge mountains, slag, smoke | East |
+| **Pale Grid** | **Abandoned** machine ruins / dead cathedrals | Northeast |
+| **Skyhook Plateau** | Inland airship docks (1–2 balloons) | Northwest plateau, not a seaport |
 
 ---
 
-## Region roles (story hooks)
+## Region roles (story)
 
-### Aetherwell Isle (industrial crater)
-- Terraces packed with factories, warehouses, derricks, pipe rings; amber Volt glow at the floor between buildings.  
-- Mid sabotage + Kernel finale.  
-- Screens: rim checkpoint, pipe catwalks, drill heart, Kernel sanctum.
+### Aetherwell
+Industrial crater-city; mid sabotage + Kernel finale.  
+Screens: rim checkpoint, pipe catwalks, drill heart, Kernel sanctum.
 
 ### Lumen Spire
-- Helix capital politics; Ash’s exile; Sol’s parade.  
-- Screens: plaza, undercity market, atrium, conservatory.
+Helix politics; Ash’s exile; Sol’s parade.  
+Screens: plaza, undercity market, atrium, conservatory.
 
-### Chromehaven (rim hub)
-- Recruitment, intrigue, Quill.  
-- Screens: bazaar, garage, broker den.
+### Chromehaven
+Recruitment, intrigue, Quill; strongest cyberpunk street energy.  
+Screens: neon bazaar, garage, broker den, alley climb.
+
+### Forest Veil & Deepwood
+Travel corridors, ambushes, quieter character beats, Choir hideouts.  
+Screens: mist trail, overgrown relay, mushroom hollow, ruined tower.
+
+### Ash-yard (abandoned)
+Exploration, scavenger horror, mid-game reveals.  
+Screens: dead foundry, silent street, collapsed stack yard.
 
 ### Rust Marches
-- Nyx digs; Choir; Kernel shard.  
-- Screens: dig camp, chassis canyon, vault mouth.
+Nyx digs; Kernel shard.  
+Screens: dig camp, chassis canyon, vault mouth.
 
-### Glassmere
-- Smuggler beats; quieter chapters.  
-- Screens: pier market, sunken tram, lighthouse.
+### Cinder Reaches
+Labor revolt; steel lore.  
+Screens: live foundry, slag bridge, ash town.
 
-### Skyhook Isle
-- Iri’s ship; travel unlocks.  
-- Screens: customs, hangar, launch platform.
+### Pale Grid (abandoned)
+Vault runs; data-gothic ruins.  
+Screens: gate ruin, cable cloister, antenna spire.
 
-### Cinder Reach
-- Labor revolt; steel lore.  
-- Screens: foundry interior, slag bridge, ash town.
-
-### Pale Grid Isle
-- Vault runs; Choir territory.  
-- Screens: gate ruin, cloister, antenna spire.
+### Skyhook Plateau
+Iri’s ship; travel unlocks.  
+Screens: plateau docks, hangar, launch scaffold.
 
 ---
 
@@ -97,20 +102,23 @@
 
 | Unlock | When | Effect |
 | --- | --- | --- |
-| Aetherwell rim ↔ Chromehaven | Prologue | Local |
-| Rust Marches | Prologue (Nyx) / Early (Ash) | Ferry / monorail |
-| Glassmere + Skyhook | After 2 early scenarios | Airship / sea routes |
-| Cinder + Pale Grid | Mid Coil | Longer voyages |
-| Aetherwell Depths | Late | Finale dungeon |
+| Spire ↔ Chromehaven ↔ Aetherwell rim | Prologue | Local roads |
+| Forest Veil / Deepwood trails | Early | Soft gates between wards |
+| Rust Marches + Ash-yard | Early/Mid | Dig + abandoned content |
+| Cinder + Pale Grid | Mid | Harder fields |
+| Aetherwell Depths | Late | Finale |
+
+Travel flavor: scrap monorail, pipe-trams, airship hops over land — **not** ocean ferries.
 
 ---
 
 ## Atlas art brief
 
-- SF2 sketch + watercolor parchment.  
-- **Archipelago world map** with big ocean negative space.  
-- Central crater = **factory city in a pit**.  
-- Steampunk industrial; avoid neon wash.  
+- SF2 sketch + watercolor.  
+- **One big land**, minimal water.  
+- Include **forests** and **abandoned** districts as readable zones.  
+- Crater = industrial city in a pit.  
+- Neon allowed as soft pigment pops on living cities.  
 - No text/UI on the painting.
 
 Asset: `assets/maps/samples/overworld-coil-atlas/`
@@ -119,7 +127,8 @@ Asset: `assets/maps/samples/overworld-coil-atlas/`
 
 ## Approval checklist
 
-1. Does this read as a **world** (distance / sea) rather than one complex?  
-2. Is Aetherwell’s crater clearly **industrial architecture**?  
-3. Steampunk balance OK?  
-4. Which island/region to paint first after approval?
+1. One-continent / almost-no-water layout — right?  
+2. Forests + abandoned areas readable enough?  
+3. Cyberpunk neon level — enough / still low / too much?  
+4. Crater industry — clear?  
+5. First region to paint after approval?

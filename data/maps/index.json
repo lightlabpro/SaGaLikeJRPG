@@ -55,6 +55,6 @@
       "path": "overworld-coil-atlas.json"
     }
   ],
-  "setting": "steampunk-industrial",
-  "note": "Medieval samples are technique proofs; Coil atlas is the steampunk world preview (cyberpunk neon toned down)."
+  "setting": "steampunk-cyberpunk",
+  "note": "Medieval samples are technique proofs; Coil atlas is one-continent steampunk+cyberpunk preview with forests and abandoned belts."
 }

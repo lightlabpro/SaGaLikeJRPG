@@ -1,7 +1,7 @@
 # Art Style Guide
 
 **Technique:** SaGa Frontier 2 handpainted watercolor (sketch underdrawing + soft washes).  
-**Subject:** Futuristic **steampunk industrial** (FF7-adjacent energy politics) — brass, iron, steam, smog, megacity wards. **Tone down cyberpunk neon**; use neon only as rare accents, not the atlas default. Not medieval fantasy.
+**Subject:** Futuristic **steampunk + cyberpunk** industrial continent — brass, iron, steam, smog, soft neon pigment pops, forests, and abandoned belts. One big landmass (almost no open ocean). Not medieval fantasy.
 
 The medieval sample maps in `assets/maps/samples/` were a **technique proof**. Final areas will use the same paint language on Coil locations after story + world map approval (`docs/story.md`, `docs/world-map.md`).
 
@@ -13,8 +13,8 @@ The medieval sample maps in `assets/maps/samples/` were a **technique proof**. F
 | Medium | Translucent watercolor washes on textured paper |
 | Edges | Soft bleeds; shapes from wash + sketch, not hard black outlines |
 | Perspective | Fixed elevated isometric / 3/4 RPG diorama staging |
-| Color | Warm brass beiges & oxidized browns; coal-smoke greys; muted teal water; soft amber forge / Volt glow |
-| Accents | Forge hearths, coolant ponds, airship balloons — sparse saturated pops; avoid magenta neon wash |
+| Color | Warm brass beiges & oxidized browns; coal-smoke greys; forest greens; cool Volt cyan–amber; soft neon magenta/cyan pops on living cities |
+| Accents | Neon signage blooms, forge hearths, bio-glow flora, abandoned rust silence |
 | Lighting | Diffused washes; hearth orange vs. window/neon cool shafts on interiors |
 | Interiors | Cut-away rooms with front wall removed (SF2 shop style) |
 

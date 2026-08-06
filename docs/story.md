@@ -1,8 +1,8 @@
 # Story Bible — *SaGaLikeJRPG* (working title: **Coil of Embers**)
 
 > **Status:** Draft for approval. No area art or maps until this + the world map are signed off.  
-> **Targets:** SaGa Frontier 2 structure (~25–30 hours, scenario-driven, non-linear) + Final Fantasy VII tone (futuristic **steampunk industrial**; cyberpunk neon toned down).  
-> **Visuals:** SF2 handpainted watercolor technique applied to brass, iron, steam, smog, and megacity ruins — not medieval fantasy.
+> **Targets:** SaGa Frontier 2 structure (~25–30 hours, scenario-driven, non-linear) + Final Fantasy VII tone (futuristic **steampunk + cyberpunk** industrial).  
+> **Visuals:** SF2 handpainted watercolor on one contiguous continent — brass, neon, forests, abandoned wastes, industrial crater — not medieval fantasy.
 
 ---
 
@@ -19,7 +19,7 @@ Two lives — a magicless steel-swordsman cast out of the corporate throne, and 
 | Scenario select / multi-arc story | Mega-corp dystopia, eco-horror | Non-linear chapters inside one industrial planet-city ring |
 | “No anima” steel protagonist | Midgar-like stratified city | **Gustave-class** heir who cannot sync to **Volt** |
 | Excavator / digger saga | Ancient weapons, reactors, Sephiroth-scale threat | Diggers unearth a sealed **Kernel** (the Egg) |
-| Soft watercolor screens | Reactors, airships, undercity, corporate dystopia | Watercolor brass-smog industrial — neon rare |
+| Soft watercolor screens | Neon, reactors, airships, undercity, corporate dystopia | Watercolor brass-smog **with soft neon**; forests & abandoned belts |
 
 Not a FF7 remake. Original cast, places, and metaphysics — same *feel*.
 
