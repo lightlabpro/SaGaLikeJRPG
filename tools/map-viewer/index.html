@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Westmarch Map Gallery — Handpainted Samples</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="paper">
+    <header class="masthead">
+      <p class="eyebrow">SaGaLikeJRPG · Map Samples</p>
+      <h1>Westmarch</h1>
+      <p class="lede">
+        Handpainted watercolor location screens in the spirit of SaGa Frontier 2 —
+        full illustrated backgrounds, not tilemaps.
+      </p>
+    </header>
+
+    <nav class="type-filters" aria-label="Filter by map type">
+      <button type="button" class="filter is-active" data-filter="all">All</button>
+      <button type="button" class="filter" data-filter="town">Town</button>
+      <button type="button" class="filter" data-filter="field">Field</button>
+      <button type="button" class="filter" data-filter="castle">Castle</button>
+      <button type="button" class="filter" data-filter="overworld">Overworld</button>
+    </nav>
+
+    <section class="gallery" id="gallery" aria-live="polite"></section>
+  </div>
+
+  <dialog id="viewer" class="viewer">
+    <form method="dialog" class="viewer-chrome">
+      <button value="close" class="close" aria-label="Close">×</button>
+    </form>
+    <div class="viewer-body">
+      <figure>
+        <img id="viewer-image" alt="" />
+        <figcaption>
+          <h2 id="viewer-title"></h2>
+          <p id="viewer-desc"></p>
+          <ul id="viewer-meta" class="meta"></ul>
+          <div id="viewer-hotspots" class="hotspots"></div>
+        </figcaption>
+      </figure>
+      <canvas id="overlay" width="960" height="640" aria-hidden="true"></canvas>
+    </div>
+    <label class="toggle">
+      <input type="checkbox" id="show-regions" />
+      Show walk regions &amp; hotspots
+    </label>
+  </dialog>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

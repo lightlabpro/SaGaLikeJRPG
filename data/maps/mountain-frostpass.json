@@ -1,0 +1,78 @@
+{
+  "id": "mountain-frostpass",
+  "name": "Frostpass",
+  "type": "field",
+  "description": "A narrow alpine pass cut between cold stone cliffs. Mist pools in the valleys; a weathered shrine marks the trail.",
+  "style": "handpainted-watercolor",
+  "inspiredBy": "SaGa Frontier 2 mountain / snow field screens",
+  "background": {
+    "image": "assets/maps/samples/mountain-frostpass/background.png",
+    "preview": "assets/maps/samples/mountain-frostpass/preview.jpg",
+    "thumbnail": "assets/maps/samples/mountain-frostpass/thumbnail.jpg",
+    "width": 1536,
+    "height": 1024
+  },
+  "spawn": { "x": 0.22, "y": 0.72 },
+  "walkableRegions": [
+    {
+      "id": "pass",
+      "label": "Mountain path",
+      "polygon": [
+        [0.10, 0.70],
+        [0.35, 0.62],
+        [0.55, 0.58],
+        [0.75, 0.50],
+        [0.90, 0.46],
+        [0.90, 0.58],
+        [0.70, 0.64],
+        [0.50, 0.72],
+        [0.30, 0.80],
+        [0.10, 0.82]
+      ]
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "exit-south",
+      "label": "To Whisperwood",
+      "type": "exit",
+      "x": 0.12,
+      "y": 0.76,
+      "radius": 0.05,
+      "target": "forest-whisperwood"
+    },
+    {
+      "id": "exit-north",
+      "label": "Toward Ironveil",
+      "type": "exit",
+      "x": 0.88,
+      "y": 0.50,
+      "radius": 0.05,
+      "target": "castle-ironveil"
+    },
+    {
+      "id": "shrine",
+      "label": "Trail shrine",
+      "type": "examine",
+      "x": 0.42,
+      "y": 0.58,
+      "radius": 0.04,
+      "target": null
+    }
+  ],
+  "encounters": {
+    "enabled": true,
+    "rate": 0.12,
+    "table": "mountain-common"
+  },
+  "palette": {
+    "stone": "#8A8790",
+    "snow": "#E8E6E2",
+    "pine": "#5E7260",
+    "mist": "#C8CBD0",
+    "lichen": "#A89060",
+    "sky": "#9AADC0"
+  },
+  "mood": "cold wind, thin air, quiet grandeur",
+  "musicCue": "field-mountain"
+}
