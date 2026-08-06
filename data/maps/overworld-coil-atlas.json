@@ -2,11 +2,11 @@
   "id": "overworld-coil-atlas",
   "name": "The Coil",
   "type": "overworld",
-  "description": "Ring atlas around an industrial Aetherwell crater — distinct wedges for capital gardens, sky docks, harbor, scrap desert, forges, pale ruins, and factory wards. Steampunk-first design preview.",
+  "description": "Archipelago world atlas — wide seas between lands; central Aetherwell Isle is an industrial crater-city (factories on terraces), not an empty pit. Steampunk-first design preview.",
   "style": "handpainted-watercolor",
   "setting": "steampunk-industrial",
   "status": "design-preview",
-  "artNotes": "Regions must stay silhouette-distinct; crater filled with industry; minimal neon.",
+  "artNotes": "World-map scale with ocean separation; crater packed with industry; minimal neon.",
   "background": {
     "image": "assets/maps/samples/overworld-coil-atlas/background.png",
     "preview": "assets/maps/samples/overworld-coil-atlas/preview.jpg",
