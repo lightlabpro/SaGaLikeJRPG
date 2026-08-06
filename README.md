@@ -1,67 +1,36 @@
 # SaGaLikeJRPG
 
-A SaGa Frontier 2–inspired JRPG prototype. Location screens use **handpainted watercolor backgrounds** (full illustrated scenes), not tilemaps — the same approach SF2 used when artists painted canvases, scanned them, and walked characters across the art.
+A SaGa Frontier 2–structured JRPG (~25–30 hours, scenario-driven) with **handpainted watercolor screens** and a **futuristic steampunk + cyberpunk** setting on one contiguous industrial continent.
 
-## Quick start — journey preview
+> **Current milestone:** Approve **story** + **world map** before area art.  
+> See [`docs/story.md`](docs/story.md) and [`docs/world-map.md`](docs/world-map.md).  
+> Coil atlas preview: `assets/maps/samples/overworld-coil-atlas/`
+
+## Quick start — journey preview (technique samples)
 
 ```bash
-# from repo root
 python3 -m http.server 8765
 # open http://localhost:8765/tools/map-viewer/
 ```
 
-Walk the suggested route in order:
+The journey viewer still walks older **technique-proof** medieval samples. Final areas will be Coil locations after design approval.
 
-**Havenbrook → Whisperwood → Frostpass → Ironveil → Westmarch → Millhaven**
+## Design docs
 
-Use **Continue**, click glowing exits on the map, the route list, or ←/→ keys.
-
-## Sample maps
-
-| ID | Name | Type |
-| --- | --- | --- |
-| `town-havenbrook` | Havenbrook | Town square |
-| `forest-whisperwood` | Whisperwood | Forest field |
-| `castle-ironveil` | Ironveil Castle | Castle courtyard |
-| `mountain-frostpass` | Frostpass | Mountain pass |
-| `overworld-westmarch` | Westmarch | Region atlas |
-| `riverside-millhaven` | Millhaven | Riverside inn |
-
-Art + previews live under `assets/maps/samples/`. Playable metadata (spawn, walk polygons, hotspots) lives under `data/maps/`.
-
-Style target: soft brownish sketch underdrawing + translucent watercolor washes, elevated isometric staging, warm earth tones — closer to SaGa Frontier 2’s scanned painted screens than photoreal concept art.
+| Doc | Purpose |
+| --- | --- |
+| [Story bible](docs/story.md) | Dual leads, scenarios, endings, hour budget |
+| [World map](docs/world-map.md) | The Coil regions, gating, atlas brief |
+| [Art style](docs/art-style-guide.md) | SF2 paint technique + cyberpunk subject |
+| [Map pipeline](docs/map-pipeline.md) | Painting → JSON → playable screen |
 
 ## Repo layout
 
 ```
 assets/          # Art, audio, UI
-  maps/samples/  # Handpainted location backgrounds
-  characters/    # Sprites / portraits (placeholder)
-  ui/            # Menus, frames
-  audio/         # Music & SFX
-data/            # Game data (maps, tables) as JSON
-docs/            # Art style guide & map pipeline
-src/
-  engine/        # Runtime / loop (stub)
-  maps/          # Map loader (stub)
-  game/          # Game-specific logic (stub)
-tools/
-  map-viewer/    # Local gallery for painted screens
-  scripts/       # Utility scripts
+  maps/samples/  # Painted screens (technique proofs + Coil atlas preview)
+data/maps/       # Map JSON
+docs/            # Story, world, style, pipeline
+src/             # Engine stubs
+tools/map-viewer # Local journey / preview tool
 ```
-
-## Docs
-
-- [Art style guide](docs/art-style-guide.md) — watercolor look, palette, do/don't
-- [Map pipeline](docs/map-pipeline.md) — from painting → JSON → playable screen
-
-## Design notes
-
-SaGa Frontier 2's identity came from scanned watercolor backdrops with a Germanic medieval storybook mood. These samples follow that idea:
-
-1. One full painting per location screen  
-2. Soft muted earth tones and pigment blooms  
-3. Clear walkable ground and landmark exits  
-4. Separate data for collision / hotspots  
-
-Next building blocks: walk-mask painting, interior rooms off door hotspots, and a thin loader in `src/maps/`.

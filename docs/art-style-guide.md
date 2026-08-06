@@ -1,75 +1,56 @@
-# Handpainted Map Art Style Guide
+# Art Style Guide
 
-Inspired by **SaGa Frontier 2**: backgrounds are hand-painted watercolor illustrations with soft sketch underdrawing, scanned as full-screen walkable scenes — not tilemaps, not photoreal concept art.
+**Technique:** SaGa Frontier 2 handpainted watercolor (sketch underdrawing + soft washes).  
+**Subject:** Futuristic **steampunk + cyberpunk** industrial continent — brass, iron, steam, smog, soft neon pigment pops, forests, and abandoned belts. One big landmass (almost no open ocean). Not medieval fantasy.
 
-## Look & Feel (match these SF2 traits)
+The medieval sample maps in `assets/maps/samples/` were a **technique proof**. Final areas will use the same paint language on Coil locations after story + world map approval (`docs/story.md`, `docs/world-map.md`).
+
+## Look & Feel
 
 | Trait | Guidance |
 | --- | --- |
-| Underdrawing | Soft brownish / grey pencil or ink sketch lines under the paint |
+| Underdrawing | Soft brownish / grey pencil or ink sketch under the paint |
 | Medium | Translucent watercolor washes on textured paper |
-| Edges | Soft bleeds; shapes defined by wash + sketch, not hard black outlines |
-| Perspective | Fixed elevated isometric / 3/4 RPG viewpoint (diorama staging) |
-| Color | Warm earthy beiges, tans, browns; soft moss greens; cool lavender shadows |
-| Accents | Small saturated pops (red mushrooms, pink flowers, forge glow) |
-| Lighting | Soft diffused washes; warm hearth / cool window shafts on interiors |
-| Interiors | Cut-away rooms with the front wall removed (shop / forge style) |
+| Edges | Soft bleeds; shapes from wash + sketch, not hard black outlines |
+| Perspective | Fixed elevated isometric / 3/4 RPG diorama staging |
+| Color | Warm brass beiges & oxidized browns; coal-smoke greys; forest greens; cool Volt cyan–amber; soft neon magenta/cyan pops on living cities |
+| Accents | Neon signage blooms, forge hearths, bio-glow flora, abandoned rust silence |
+| Lighting | Diffused washes; hearth orange vs. window/neon cool shafts on interiors |
+| Interiors | Cut-away rooms with front wall removed (SF2 shop style) |
 
-## What SF2 Did Differently
+## Setting vocabulary (paint these, not castles)
 
-1. **Full painted screens** — each location is one illustration.
-2. **Sprites on paintings** — characters are separate 2D sprites; collision is data.
-3. **Sketch + wash** — hand-drawn line under watercolor, storybook Germanic fantasy.
-4. **Hotspots, not grids** — doors and exits sit on the painted ground.
+- Megacity plates, pipe-spines, sky-trains, airship docks  
+- Undercity bazaars, scrap dunes, flooded glass coasts  
+- Drill terraces into a glowing planetary well  
+- Dead server-cathedrals, cable forests  
 
-## Anti-patterns (avoid)
+## Anti-patterns
 
-- Photoreal architecture, foliage, or lighting
-- Clean modern digital illustration without paper grain / sketch lines
-- Overly naive “children’s book blob” forms with no underdrawing
-- Harsh pure-black outlines or anime cel shading
-- Tile seams or repeating texture sheets as the hero background
+- Photoreal / glossy digital concept art  
+- Medieval half-timber default (old samples only)  
+- Anime cel neon without paper grain  
+- Harsh pure-black outlines  
+- Tile seams as the hero background  
 
-## Sample Palette Anchors
+## Sample palette anchors
 
 ```
-Stone / path         #B8A078  #C4A882
-Foliage / moss       #6E8B5E  #7A9E6E
-Timber / roofs       #6B4A32  #B86B4A
-Accent mushroom/red  #C43A3A
-Accent flower        #7A5A9A  #C45A6A
-Shadow (cool)        #7A6A78  #8A7A6A
-Hearth glow          #E07030
-Window light         #E8E4D8
+Brass / stone path    #B8A078  #C4A882
+Oxidized scrap        #A86B4A  #6B4A32
+Volt cyan / amber     #5EB8C8  #E0A84A
+Neon magenta pop      #C45A9A
+Moss / bio-coast      #6E8B5E
+Phosphor ghost green  #8ABA7A
+Shadow (cool smoke)   #7A6A78
+Hearth / forge        #E07030
 ```
 
-## Production Pipeline
+## Pipeline
 
-1. **Concept** — thumbnail: path, landmarks, exits.
-2. **Sketch** — light brownish underdrawing.
-3. **Wash** — watercolor / wet-media brushes; keep paper grain.
-4. **Export** — ~1536×1024 (or higher).
-5. **Author data** — `data/maps/<id>.json` spawn, walk regions, hotspots.
-6. **Preview** — `tools/map-viewer` journey walkthrough.
+1. Approve story + Coil atlas (`docs/`).  
+2. Paint atlas hub, then area screens per approved region order.  
+3. Author `data/maps/<id>.json` (spawn, walk, hotspots).  
+4. Preview in `tools/map-viewer`.  
 
-## Map Types in This Repo
-
-| Type | Purpose | Sample |
-| --- | --- | --- |
-| `town` | Courtyards, hubs | Havenbrook, Millhaven |
-| `field` | Travel + encounters | Whisperwood, Frostpass |
-| `castle` | Court hubs | Ironveil Castle |
-| `interior` | Cut-away shops | Emberhall Forge |
-| `overworld` | Region atlas | Westmarch |
-
-## Do / Don't
-
-**Do**
-- Keep open walkable ground readable
-- Use sketch + wash together
-- Leave clear exits (stairs, archways, path mouths)
-
-**Don't**
-- Drift into photoreal or glossy digital painting
-- Hide the path under clutter
-- Put UI chrome into the background art
+See also: `docs/map-pipeline.md`.

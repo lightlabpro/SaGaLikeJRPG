@@ -1,7 +1,10 @@
 {
   "version": 1,
   "style": "handpainted-watercolor",
-  "resolution": { "width": 1536, "height": 1024 },
+  "resolution": {
+    "width": 1536,
+    "height": 1024
+  },
   "maps": [
     {
       "id": "town-havenbrook",
@@ -44,6 +47,14 @@
       "name": "Emberhall Forge",
       "type": "interior",
       "path": "forge-emberhall.json"
+    },
+    {
+      "id": "overworld-coil-atlas",
+      "name": "The Coil",
+      "type": "overworld",
+      "path": "overworld-coil-atlas.json"
     }
-  ]
+  ],
+  "setting": "steampunk-cyberpunk",
+  "note": "Medieval samples are technique proofs; Coil atlas aims for organic contiguous land (Skyrim/AC-map feel) with steampunk+cyberpunk landmarks."
 }
