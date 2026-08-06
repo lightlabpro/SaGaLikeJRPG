@@ -2,9 +2,9 @@
   "id": "town-havenbrook",
   "name": "Havenbrook",
   "type": "town",
-  "description": "A quiet market village built around a central well. Timber-framed shops ring a cobbled square — the kind of starting town that feels lived-in and warm.",
+  "description": "A stone courtyard garden with a curved cobbled walk, tiered flower bed, and stairs up to an archway — SF2 town-screen staging.",
   "style": "handpainted-watercolor",
-  "inspiredBy": "SaGa Frontier 2 town screens (Germanic village aesthetic)",
+  "inspiredBy": "SaGa Frontier 2 outdoor courtyard / town screens",
   "background": {
     "image": "assets/maps/samples/town-havenbrook/background.png",
     "preview": "assets/maps/samples/town-havenbrook/preview.jpg",
@@ -12,82 +12,67 @@
     "width": 1536,
     "height": 1024
   },
-  "spawn": { "x": 0.48, "y": 0.72 },
+  "spawn": { "x": 0.52, "y": 0.72 },
   "walkableRegions": [
     {
-      "id": "plaza",
-      "label": "Town square",
+      "id": "walkway",
+      "label": "Cobbled walk",
       "polygon": [
-        [0.28, 0.55],
-        [0.72, 0.55],
-        [0.78, 0.82],
-        [0.22, 0.82]
+        [0.30, 0.70],
+        [0.62, 0.58],
+        [0.72, 0.48],
+        [0.78, 0.58],
+        [0.58, 0.78],
+        [0.28, 0.82]
       ]
     },
     {
-      "id": "north-path",
-      "label": "Path to countryside",
+      "id": "stairs",
+      "label": "Stairs to arch",
       "polygon": [
-        [0.42, 0.35],
-        [0.58, 0.35],
-        [0.58, 0.55],
-        [0.42, 0.55]
+        [0.48, 0.38],
+        [0.68, 0.34],
+        [0.72, 0.48],
+        [0.52, 0.52]
       ]
-    }
-  ],
-  "blockedRegions": [
-    {
-      "id": "buildings",
-      "label": "House footprints",
-      "note": "Approximate building footprints — refine with a painted collision mask"
     }
   ],
   "hotspots": [
     {
-      "id": "inn",
-      "label": "Wayfarer's Inn",
-      "type": "door",
-      "x": 0.22,
-      "y": 0.48,
-      "radius": 0.04,
-      "target": null
-    },
-    {
-      "id": "weapon-shop",
-      "label": "Blade & Bolt",
-      "type": "shop",
-      "x": 0.72,
-      "y": 0.50,
-      "radius": 0.04,
-      "target": null
-    },
-    {
-      "id": "well",
-      "label": "Village well",
+      "id": "garden",
+      "label": "Garden bed",
       "type": "examine",
-      "x": 0.50,
-      "y": 0.62,
-      "radius": 0.035,
+      "x": 0.28,
+      "y": 0.55,
+      "radius": 0.04,
       "target": null
     },
     {
-      "id": "exit-north",
+      "id": "forge-door",
+      "label": "Emberhall Forge",
+      "type": "door",
+      "x": 0.78,
+      "y": 0.62,
+      "radius": 0.04,
+      "target": "forge-emberhall"
+    },
+    {
+      "id": "exit-whisperwood",
       "label": "Road to Whisperwood",
       "type": "exit",
-      "x": 0.50,
-      "y": 0.30,
+      "x": 0.58,
+      "y": 0.32,
       "radius": 0.05,
       "target": "forest-whisperwood"
     }
   ],
   "palette": {
-    "ground": "#C4A574",
-    "roofs": "#B86B4A",
-    "timber": "#6B4A32",
-    "foliage": "#7A9E6E",
-    "sky": "#A8C4C8",
-    "shadow": "#6E6A62"
+    "stone": "#B8A078",
+    "foliage": "#6E8B5E",
+    "flowers": "#C45A6A",
+    "path": "#C4A882",
+    "shadow": "#8A7A6A"
   },
-  "mood": "warm afternoon, lived-in, welcoming",
+  "mood": "quiet courtyard, soft afternoon, storybook town",
   "musicCue": "town-day"
 }

@@ -2,7 +2,7 @@
 
 A SaGa Frontier 2–inspired JRPG prototype. Location screens use **handpainted watercolor backgrounds** (full illustrated scenes), not tilemaps — the same approach SF2 used when artists painted canvases, scanned them, and walked characters across the art.
 
-## Quick start — map gallery
+## Quick start — journey preview
 
 ```bash
 # from repo root
@@ -10,7 +10,11 @@ python3 -m http.server 8765
 # open http://localhost:8765/tools/map-viewer/
 ```
 
-Browse six sample maps, open any screen, and toggle **walk regions & hotspots**.
+Walk the suggested route in order:
+
+**Havenbrook → Whisperwood → Frostpass → Ironveil → Westmarch → Millhaven**
+
+Use **Continue**, click glowing exits on the map, the route list, or ←/→ keys.
 
 ## Sample maps
 
@@ -24,6 +28,8 @@ Browse six sample maps, open any screen, and toggle **walk regions & hotspots**.
 | `riverside-millhaven` | Millhaven | Riverside inn |
 
 Art + previews live under `assets/maps/samples/`. Playable metadata (spawn, walk polygons, hotspots) lives under `data/maps/`.
+
+Style target: soft brownish sketch underdrawing + translucent watercolor washes, elevated isometric staging, warm earth tones — closer to SaGa Frontier 2’s scanned painted screens than photoreal concept art.
 
 ## Repo layout
 
