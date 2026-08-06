@@ -1,23 +1,21 @@
 # World Map Design — **The Coil**
 
 > **Status:** Draft for approval (pair with `docs/story.md`).  
-> **Art direction:** SaGa Frontier 2 watercolor *technique* + FF7 steampunk/cyberpunk *subject*.  
+> **Art direction:** SaGa Frontier 2 watercolor *technique* + **steampunk industrial** subject (FF7-adjacent energy politics; **tone down cyberpunk/neon**).  
 > **Do not** start individual area screens until this map and the story bible are approved.
 
 ---
 
 ## World in one paragraph
 
-**The Coil** is a ring-continent of megacity wards, scrap badlands, and sky-docks wrapped around **Aetherwell** — a planetary wound where the Helix Conglomerate drills **Volt** (living energy). Upper wards gleam with brass gardens and neon liturgy; undercities choke on steam and glow-rain. Beyond the ring: flooded bio-coasts, forge-volcano marches, and the haunted **Pale Grid** of dead corporate cathedrals.
+**The Coil** is a ring of sharply different lands wrapped around **Aetherwell** — a terraced industrial crater where the Helix Conglomerate drills **Volt**. Capital gardens, scrap deserts, sky-docks, forge volcanoes, flooded harbors, and pale ruins each read as their own silhouette. Steam and brass first; neon and chrome last.
 
 ---
 
 ## Cartographic read (how players use it)
 
-Like SF2’s region sense + FF7’s “leave the city, see the wound”:
-
 1. **Scenario Board** picks a chapter → drops you into a painted location screen.  
-2. **Coil Atlas** (this overworld) is the painted hub linking wards — nodes + roads, not open 3D.  
+2. **Coil Atlas** (this overworld) is the painted hub — nodes + roads, not open 3D.  
 3. Each **node** opens a cluster of handpainted screens (town / field / interior / dungeon).
 
 ```
@@ -28,67 +26,75 @@ Like SF2’s region sense + FF7’s “leave the city, see the wound”:
  [Rust Marches] -- [Chromehaven] -- [Cinder Reaches]
                            |
                      [Aetherwell]
+                     (industrial crater city)
 ```
 
 ---
 
-## Regions (8)
+## Region identity (must stay distinct on the atlas)
 
-### 1. Lumen Spire (Helix capital ward)
+| Region | Silhouette / color identity | Avoid blending with |
+| --- | --- | --- |
+| **Lumen Spire** | Cream palace-city, green terraces, few pipes | Factory sprawl |
+| **Skyhook Docks** | Tall masts + airship balloons, open sky | Dense rooftops |
+| **Glassmere** | Teal water + docks dominate the wedge | Inland scrap |
+| **Rust Marches** | Empty oxidized dunes, sparse wrecks | Tower clusters |
+| **Cinder Reaches** | Chunky chimneys, orange slag, black smoke | Quiet ruins |
+| **Pale Grid** | Broken colossal arches, grey-green, no smoke | Live forges |
+| **Chromehaven** | Mid-density brass factory town (inner ring) | Capital gardens |
+| **Aetherwell** | **Crater packed with industry** — derricks, stacks, warehouses on terraces, amber glow at bottom | Empty pit / single spire |
 
-- **FF7 echo:** Midgar plate — gardens above, vents below.  
-- **Look:** White-brass towers, soft neon violet signage as watercolor blooms, sky-trains.  
-- **Roles:** Ash’s exile home; board politics; Sol’s parade.  
-- **Key screens (later):** Spire plaza, undercity steam market, Helix atrium, Vesper’s conservatory.
+---
 
-### 2. Chromehaven Undercity
+## Regions (detail)
 
-- **FF7 echo:** Sector slums / Wall Market energy without copying layout.  
-- **Look:** Stacked hab-blocks, cable bridges, amber window-washes, puddles of Volt-colored runoff.  
-- **Roles:** Quill’s turf; Black Ledger mid-scenario; recruitment hub.  
-- **Key screens:** Night bazaar, chop-shop garage, info-broker den, vertical alley climb.
+### 1. Lumen Spire (Helix capital)
+
+- **Look:** Pale limestone-and-brass towers, gardens, cleanest ward.  
+- **Roles:** Ash’s exile; board politics; Sol’s parade.  
+- **Screens (later):** Spire plaza, undercity steam market, Helix atrium, Vesper’s conservatory.
+
+### 2. Chromehaven
+
+- **Look:** Packed brass rooftops and workshop streets — working city, not neon alley.  
+- **Roles:** Quill’s turf; mid-scenario intrigue; recruitment hub.  
+- **Screens:** Bazaar, chop-shop garage, broker den, alley climb.
 
 ### 3. Rust Marches
 
-- **FF7 echo:** Wilderness between reactors — junkyard romance.  
-- **Look:** Oxidized dunes of scrap, half-buried airframes, mushroomed coolant lakes (SF2 mushroom pop colors on cyber junk).  
-- **Roles:** Nyx’s home digs; Pale Choir raids; Kernel shard discovery.  
-- **Key screens:** Dig camp, canyon of chassis, sealed vault mouth, night storm ridge.
+- **Look:** Oxidized scrap dunes, half-buried frames, coolant ponds — lots of open ground.  
+- **Roles:** Nyx’s digs; Choir raids; Kernel shard.  
+- **Screens:** Dig camp, chassis canyon, vault mouth, storm ridge.
 
 ### 4. Glassmere
 
-- **FF7 echo:** Costa-ish rest + ecological wrongness.  
-- **Look:** Flooded streets, glass-and-brass piers, bioluminescent kelp, pink-cyan reflections.  
-- **Roles:** Smuggler jobs; Neon Baptism; quieter character beats.  
-- **Key screens:** Pier market, half-sunken tram, lighthouse relay, kelp farm.
+- **Look:** Flooded harbor, iron-and-glass piers, boats, teal washes.  
+- **Roles:** Smuggler jobs; quieter beats.  
+- **Screens:** Pier market, half-sunken tram, lighthouse relay, kelp farm.
 
 ### 5. Skyhook Docks
 
-- **FF7 echo:** Rocket Town / airship fantasy as industrial skyport.  
-- **Look:** Mooring towers, balloon-freighters, steam contrails as soft washes.  
-- **Roles:** Iri’s ship; travel unlocks; Skyhook Debt scenario.  
-- **Key screens:** Customs gantry, hangar bay, captain’s mess, storm launch platform.
+- **Look:** Mooring masts, balloon freighters, steam trails.  
+- **Roles:** Iri’s ship; travel unlocks.  
+- **Screens:** Customs gantry, hangar, captain’s mess, launch platform.
 
 ### 6. Cinder Reaches
 
-- **FF7 echo:** Nibelheim / Corel industrial heat.  
-- **Look:** Ash-orange forge cities, pipe-spines up volcano flanks, slag rivers.  
-- **Roles:** Labor revolt; warlord alliance; steel-craft lore.  
-- **Key screens:** Foundry floor (cut-away SF2 interior), slag bridge, ash town, crater overlook.
+- **Look:** Volcanic forge towns, blocky foundries, slag rivers.  
+- **Roles:** Labor revolt; steel-craft lore.  
+- **Screens:** Foundry (cut-away interior), slag bridge, ash town, crater overlook.
 
 ### 7. Pale Grid
 
-- **FF7 echo:** Shinra Mansion / Northern caves as data-gothic.  
-- **Look:** Dead server-cathedrals, cable forests, pale green phosphor ghosts in watercolor.  
-- **Roles:** Vault Mice; Ghost Frequency; Choir territory.  
-- **Key screens:** Gate basilica, cable cloister, cold storage crypt, antenna spire.
+- **Look:** Abandoned machine-ruins — colossal broken arches, quiet grey-green.  
+- **Roles:** Vault runs; Choir territory.  
+- **Screens:** Gate ruin, cable cloister, cold crypt, antenna spire.
 
-### 8. Aetherwell (the wound)
+### 8. Aetherwell (industrial crater)
 
-- **FF7 echo:** Midgar reactors + Northern Crater combined.  
-- **Look:** Concentric drill terraces into glowing cyan-amber depths; Helix fortresses on the rim.  
-- **Roles:** Mid-game sabotage; finale Kernel chamber.  
-- **Key screens:** Rim checkpoint, pipe catwalks, drill heart, Kernel sanctum.
+- **Look:** Concentric terraces **built up with factories** — drill towers, refineries, pipe coils, gantries — amber Volt glow deep below.  
+- **Roles:** Sabotage mid-game; Kernel finale.  
+- **Screens:** Rim checkpoint, pipe catwalks, drill heart, Kernel sanctum.
 
 ---
 
@@ -96,47 +102,30 @@ Like SF2’s region sense + FF7’s “leave the city, see the wound”:
 
 | Unlock | When | Effect |
 | --- | --- | --- |
-| Spire ↔ Undercity | Prologue | Local only |
+| Spire ↔ Chromehaven | Prologue | Local only |
 | Rust Marches | Prologue (Nyx) / Early (Ash) | Dig content |
-| Glassmere + Skyhook | After 2 early scenarios | Airship travel begins |
+| Glassmere + Skyhook | After 2 early scenarios | Airship travel |
 | Cinder + Pale Grid | Mid Coil | Harder fields |
-| Aetherwell Rim | Mid gate | Story dungeon access |
+| Aetherwell Rim | Mid gate | Story dungeon |
 | Aetherwell Depths | Late | Finale |
 
-Optional: **scrap monorail** and **smuggler ferries** as flavor transitions between painted screens (no open-world traversal).
-
 ---
 
-## Atlas art brief (for the painted overworld)
+## Atlas art brief
 
-- Medium: SF2-style sketch underdrawing + watercolor washes on parchment-toned paper.  
-- Subject: ring of industrial wards around a glowing central well; brass cities; neon as soft pigment pops (cyan, magenta, amber) — not glossy CGI.  
-- Roads: thin brown/graphite paths and pipe-lines linking nodes.  
-- No UI chrome, no text labels on the painting itself (labels live in data).  
-- Mood: beautiful and sick — storybook apocalypse.
+- SF2 sketch + watercolor on parchment.  
+- **Steampunk industrial** first; cyberpunk neon last (or not at all on the atlas).  
+- Regions separated by silhouette, color, and negative space.  
+- Center crater must read as an **industrial city in a pit**, not a bare hole.  
+- No text/UI on the painting.
 
-Asset path (sample): `assets/maps/samples/overworld-coil-atlas/`
-
----
-
-## Node → scenario map (summary)
-
-| Node | Early | Mid | Late |
-| --- | --- | --- | --- |
-| Lumen Spire | E5 | M3 | L2 |
-| Chromehaven | — | M4 | L1 |
-| Rust Marches | E2 | M2 | — |
-| Glassmere | E3 | — | — |
-| Skyhook | E4 | — | — |
-| Cinder | E1 | M5 | — |
-| Pale Grid | E6 | M6 | — |
-| Aetherwell | — | M1 | L3–L4 |
+Asset: `assets/maps/samples/overworld-coil-atlas/`
 
 ---
 
 ## Approval checklist
 
-1. Eight-region Coil layout — keep / cut / rename?  
-2. Central Aetherwell as the “mako wound” — keep?  
-3. Atlas-as-painted-hub (not open world) — keep?  
-4. Any region you want as the *first* area art after approval?
+1. Clearer region contrast on atlas — better / still muddy?  
+2. Industrial Aetherwell crater — enough buildings?  
+3. Steampunk > cyberpunk tone — right balance?  
+4. Which region to paint first after approval?

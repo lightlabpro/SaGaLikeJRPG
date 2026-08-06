@@ -2,10 +2,11 @@
   "id": "overworld-coil-atlas",
   "name": "The Coil",
   "type": "overworld",
-  "description": "Ring-continent atlas around Aetherwell — brass megacity wards, scrap marches, sky-docks, and the Volt wound. Design preview pending approval.",
+  "description": "Ring atlas around an industrial Aetherwell crater — distinct wedges for capital gardens, sky docks, harbor, scrap desert, forges, pale ruins, and factory wards. Steampunk-first design preview.",
   "style": "handpainted-watercolor",
-  "setting": "steampunk-cyberpunk",
+  "setting": "steampunk-industrial",
   "status": "design-preview",
+  "artNotes": "Regions must stay silhouette-distinct; crater filled with industry; minimal neon.",
   "background": {
     "image": "assets/maps/samples/overworld-coil-atlas/background.png",
     "preview": "assets/maps/samples/overworld-coil-atlas/preview.jpg",
