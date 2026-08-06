@@ -2,11 +2,11 @@
   "id": "overworld-coil-atlas",
   "name": "The Coil",
   "type": "overworld",
-  "description": "Archipelago world atlas — wide seas between lands; central Aetherwell Isle is an industrial crater-city (factories on terraces), not an empty pit. Steampunk-first design preview.",
+  "description": "Organic contiguous continent atlas (Skyrim/AC-map feel) — almost no ocean; forests, scrap, mountains blend naturally; central industrial crater-city; soft neon on living settlements.",
   "style": "handpainted-watercolor",
-  "setting": "steampunk-industrial",
+  "setting": "steampunk-cyberpunk",
   "status": "design-preview",
-  "artNotes": "World-map scale with ocean separation; crater packed with industry; minimal neon.",
+  "artNotes": "Organic topography first; no pie wedges or islands; crater packed with industry; neon accents on cities.",
   "background": {
     "image": "assets/maps/samples/overworld-coil-atlas/background.png",
     "preview": "assets/maps/samples/overworld-coil-atlas/preview.jpg",
@@ -15,16 +15,18 @@
     "height": 1024
   },
   "regions": [
+    "aetherwell",
     "lumen-spire",
     "chromehaven",
+    "forest-veil",
+    "deepwood",
+    "ash-yard",
     "rust-marches",
-    "glassmere",
-    "skyhook-docks",
     "cinder-reaches",
     "pale-grid",
-    "aetherwell"
+    "skyhook-plateau"
   ],
   "hotspots": [],
-  "mood": "beautiful and sick — storybook industrial apocalypse",
+  "mood": "one land, many wounds — neon cities, green wilds, silent ruins",
   "musicCue": "coil-atlas"
 }

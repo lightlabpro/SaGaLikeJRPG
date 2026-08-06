@@ -1,100 +1,65 @@
 # World Map Design — **The Coil**
 
 > **Status:** Draft for approval (pair with `docs/story.md`).  
-> **Art direction:** SaGa Frontier 2 watercolor *technique* + **steampunk + cyberpunk** industrial subject (brass *and* soft neon).  
+> **Art direction:** SaGa Frontier 2 watercolor *technique* + **organic contiguous** world topography (Skyrim / AC Origins / Civ-map *feel*) with steampunk + soft cyberpunk landmarks.  
 > **Do not** start individual area screens until this map and the story bible are approved.
 
 ---
 
 ## World in one paragraph
 
-**The Coil** is **one large contiguous continent** — almost no open ocean. Districts and biomes share borders, separated by **forests**, **scrap belts**, and **abandoned industrial zones** rather than seas. At the center sits **Aetherwell**, an industrial crater-city where Helix drills **Volt**. Capital neon-gardens, undercity sprawl, live forges, silent rust wastes, and overgrown wilds all sit on the same landmass.
+**The Coil** is **one continuous landmass** — hills, forests, scrap plains, and mountains flowing into each other with almost no open ocean. Settlements sit *on* the terrain the way Skyrim or Assassin’s Creed markers do: capital neon on northern highlands, undercity glow in a western valley, forests and abandoned works as natural belts, forges on eastern slopes, and **Aetherwell** as an industrial crater-city in the central basin. Roads follow the land.
 
 ---
 
 ## Cartographic read
 
 1. **Scenario Board** → painted location screen.  
-2. **Coil Atlas** = one-land hub with roads/pipes (not open 3D, not archipelago).  
-3. Each node opens a cluster of handpainted screens.
+2. **Coil Atlas** = organic overworld painting (points of interest on continuous terrain).  
+3. Each POI opens a cluster of handpainted screens.
 
-```
-              [Forest Veil]
-                    |
- [Chromehaven] — [Lumen Spire] — [Pale Grid]
-        |         [AETHERWELL]         |
- [Ash-yard]    (industrial crater)  [Cinder]
-        |              |               |
-   [Rust Marches] — [Deepwood] ——-----+
-                    (forest belt)
-```
+Travel is overland: winding roads, monorail cuts, short airship hops — not island ferries.
 
 ---
 
-## Geography rules
+## Geography rules (match the references)
 
-1. **One continent** filling most of the atlas — **almost no water** (tiny canals/rivers OK).  
-2. **Buffers = forests & abandoned belts**, not oceans.  
-3. **Aetherwell crater** is packed with industrial architecture (not an empty glow pit).  
-4. **Steampunk + cyberpunk:** brass, steam, smoke, **and** soft neon magenta/cyan watercolor pops on living cities.  
-5. Regions stay visually distinct (silhouette + color) even when adjacent.
+1. **One contiguous land** filling the frame — almost no ocean.  
+2. **Organic transitions** — biomes blend (forest → plain → scrap → foothills); no pie wedges, no hard district borders, no separated islands.  
+3. **Topography first** — ridges, valleys, and rivers create soft separation between POIs.  
+4. **Landmarks on the land** — cities/ruins are places *within* the landscape, not colored map slices.  
+5. **Aetherwell crater** = industrial architecture in the pit (factories, derricks, terraces), not an empty glow.  
+6. **Steampunk + cyberpunk** — brass/steam plus soft neon on living cities.
 
 ---
 
-## Regions
+## Points of interest (on one land)
 
-| Region | Identity | Buffer / neighbor note |
+| POI | Where it sits | Look |
 | --- | --- | --- |
-| **Aetherwell** | Crater factory-city; derricks, stacks, terraces; Volt glow between buildings | Center of the continent |
-| **Lumen Spire** | Capital towers, gardens, neon accents | North of crater |
-| **Chromehaven** | Dense neon-brass undercity sprawl | West |
-| **Forest Veil** | Misty overgrown woodland, ruined watchtowers | Northwest wilds |
-| **Deepwood** | Darker forest belt, bio-glow flora | Southeast / south belt |
-| **Ash-yard** | **Abandoned** silent factories, broken stacks, no smoke | Southwest rust wastes |
-| **Rust Marches** | Scrap dunes & dig sites (still on the continent) | South |
-| **Cinder Reaches** | Live forge mountains, slag, smoke | East |
-| **Pale Grid** | **Abandoned** machine ruins / dead cathedrals | Northeast |
-| **Skyhook Plateau** | Inland airship docks (1–2 balloons) | Northwest plateau, not a seaport |
+| **Aetherwell** | Central basin crater | Factory city in the pit; Volt glow between buildings |
+| **Lumen Spire** | Northern highland | Capital towers, gardens, neon accents |
+| **Chromehaven** | Western valley / lowlands | Dense neon-brass undercity sprawl |
+| **Forest Veil** | Northwest hills | Continuous woodland canopy |
+| **Deepwood** | Southeast hills | Darker forest belt |
+| **Ash-yard** | Southwest | Abandoned silent factories blending into scrap |
+| **Rust Marches** | Southern plains | Scrap flats, dig sites |
+| **Cinder Reaches** | Eastern mountains | Live forges, slag, smoke |
+| **Pale Grid** | Northeast rocky highland | Abandoned pale ruins |
+| **Skyhook Plateau** | Inland plateau | Airship docks (not a seaport) |
 
 ---
 
-## Region roles (story)
+## Story roles (unchanged spine)
 
-### Aetherwell
-Industrial crater-city; mid sabotage + Kernel finale.  
-Screens: rim checkpoint, pipe catwalks, drill heart, Kernel sanctum.
-
-### Lumen Spire
-Helix politics; Ash’s exile; Sol’s parade.  
-Screens: plaza, undercity market, atrium, conservatory.
-
-### Chromehaven
-Recruitment, intrigue, Quill; strongest cyberpunk street energy.  
-Screens: neon bazaar, garage, broker den, alley climb.
-
-### Forest Veil & Deepwood
-Travel corridors, ambushes, quieter character beats, Choir hideouts.  
-Screens: mist trail, overgrown relay, mushroom hollow, ruined tower.
-
-### Ash-yard (abandoned)
-Exploration, scavenger horror, mid-game reveals.  
-Screens: dead foundry, silent street, collapsed stack yard.
-
-### Rust Marches
-Nyx digs; Kernel shard.  
-Screens: dig camp, chassis canyon, vault mouth.
-
-### Cinder Reaches
-Labor revolt; steel lore.  
-Screens: live foundry, slag bridge, ash town.
-
-### Pale Grid (abandoned)
-Vault runs; data-gothic ruins.  
-Screens: gate ruin, cable cloister, antenna spire.
-
-### Skyhook Plateau
-Iri’s ship; travel unlocks.  
-Screens: plateau docks, hangar, launch scaffold.
+- **Aetherwell** — Helix drill heart; mid sabotage; Kernel finale  
+- **Lumen Spire** — politics; Ash exile; Sol  
+- **Chromehaven** — recruitment; intrigue; strongest street cyberpunk  
+- **Forests** — travel, ambush, Choir hideouts  
+- **Ash-yard / Pale Grid** — abandoned exploration beats  
+- **Rust Marches** — Nyx digs; Kernel shard  
+- **Cinder** — labor / steel  
+- **Skyhook** — Iri’s ship; travel unlocks  
 
 ---
 
@@ -103,22 +68,20 @@ Screens: plateau docks, hangar, launch scaffold.
 | Unlock | When | Effect |
 | --- | --- | --- |
 | Spire ↔ Chromehaven ↔ Aetherwell rim | Prologue | Local roads |
-| Forest Veil / Deepwood trails | Early | Soft gates between wards |
-| Rust Marches + Ash-yard | Early/Mid | Dig + abandoned content |
-| Cinder + Pale Grid | Mid | Harder fields |
+| Forest trails | Early | Soft gates |
+| Rust + Ash-yard | Early/Mid | Dig + abandoned |
+| Cinder + Pale Grid | Mid | Harder overland |
 | Aetherwell Depths | Late | Finale |
-
-Travel flavor: scrap monorail, pipe-trams, airship hops over land — **not** ocean ferries.
 
 ---
 
 ## Atlas art brief
 
-- SF2 sketch + watercolor.  
-- **One big land**, minimal water.  
-- Include **forests** and **abandoned** districts as readable zones.  
-- Crater = industrial city in a pit.  
-- Neon allowed as soft pigment pops on living cities.  
+- SF2 watercolor + sketch underdrawing.  
+- **Organic contiguous continent** (Civ/Skyrim/AC-map energy).  
+- Forests + abandoned belts as natural terrain, not map slices.  
+- Crater packed with industry.  
+- Soft neon on living cities.  
 - No text/UI on the painting.
 
 Asset: `assets/maps/samples/overworld-coil-atlas/`
@@ -127,8 +90,7 @@ Asset: `assets/maps/samples/overworld-coil-atlas/`
 
 ## Approval checklist
 
-1. One-continent / almost-no-water layout — right?  
-2. Forests + abandoned areas readable enough?  
-3. Cyberpunk neon level — enough / still low / too much?  
-4. Crater industry — clear?  
-5. First region to paint after approval?
+1. Organic contiguous feel — closer to your references?  
+2. Crater industry readable?  
+3. Neon / cyberpunk level OK?  
+4. First POI/region to paint after approval?
