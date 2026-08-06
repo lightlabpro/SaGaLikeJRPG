@@ -1,0 +1,66 @@
+{
+  "id": "forge-emberhall",
+  "name": "Emberhall Forge",
+  "type": "interior",
+  "description": "A cut-away blacksmith workshop — glowing hearth, anvil, hanging tools. Classic SaGa Frontier 2 shop-interior staging.",
+  "style": "handpainted-watercolor",
+  "inspiredBy": "SaGa Frontier 2 isometric cut-away interiors (forge / shops)",
+  "background": {
+    "image": "assets/maps/samples/forge-emberhall/background.png",
+    "preview": "assets/maps/samples/forge-emberhall/preview.jpg",
+    "thumbnail": "assets/maps/samples/forge-emberhall/thumbnail.jpg",
+    "width": 1536,
+    "height": 1024
+  },
+  "spawn": { "x": 0.42, "y": 0.72 },
+  "walkableRegions": [
+    {
+      "id": "floor",
+      "label": "Forge floor",
+      "polygon": [
+        [0.18, 0.55],
+        [0.78, 0.48],
+        [0.88, 0.82],
+        [0.12, 0.88]
+      ]
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "anvil",
+      "label": "Anvil",
+      "type": "examine",
+      "x": 0.48,
+      "y": 0.68,
+      "radius": 0.04,
+      "target": null
+    },
+    {
+      "id": "hearth",
+      "label": "Forge hearth",
+      "type": "examine",
+      "x": 0.52,
+      "y": 0.42,
+      "radius": 0.04,
+      "target": null
+    },
+    {
+      "id": "exit",
+      "label": "Back to Havenbrook",
+      "type": "exit",
+      "x": 0.18,
+      "y": 0.78,
+      "radius": 0.05,
+      "target": "town-havenbrook"
+    }
+  ],
+  "palette": {
+    "stone": "#A89078",
+    "hearth": "#E07030",
+    "wood": "#6B4A32",
+    "shadow": "#7A6A78",
+    "window": "#E8E4D8"
+  },
+  "mood": "warm forge glow, cluttered craft, cut-away diorama",
+  "musicCue": "town-shop"
+}

@@ -38,6 +38,12 @@
       "name": "Millhaven",
       "type": "town",
       "path": "riverside-millhaven.json"
+    },
+    {
+      "id": "forge-emberhall",
+      "name": "Emberhall Forge",
+      "type": "interior",
+      "path": "forge-emberhall.json"
     }
   ]
 }

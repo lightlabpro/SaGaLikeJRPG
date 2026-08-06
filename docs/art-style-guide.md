@@ -1,76 +1,75 @@
 # Handpainted Map Art Style Guide
 
-Inspired by **SaGa Frontier 2** (1999): backgrounds were painted on paper/canvas, scanned, and used as full-screen walkable scenes — not tilemaps.
+Inspired by **SaGa Frontier 2**: backgrounds are hand-painted watercolor illustrations with soft sketch underdrawing, scanned as full-screen walkable scenes — not tilemaps, not photoreal concept art.
 
-## Look & Feel
+## Look & Feel (match these SF2 traits)
 
 | Trait | Guidance |
 | --- | --- |
-| Medium | Soft wet watercolor / gouache on textured paper (scanned look) |
-| Perspective | Slight bird's-eye or elevated 3/4 for towns; flatter storybook staging |
-| Edges | Fuzzy bleeds and pigment blooms; avoid hard digital outlines |
-| Forms | Simplified, slightly naive / toy-like fairy-tale shapes — not architectural precision |
-| Color | Muted pastels with gentle saturation — ochre, sage, dusty rose, cool lavender shadows |
-| Lighting | Soft flat washes; translucent glazes; no harsh PBR lighting |
-| Detail | Landmarks readable, surfaces suggested with dabs — impressionistic, not photoreal |
+| Underdrawing | Soft brownish / grey pencil or ink sketch lines under the paint |
+| Medium | Translucent watercolor washes on textured paper |
+| Edges | Soft bleeds; shapes defined by wash + sketch, not hard black outlines |
+| Perspective | Fixed elevated isometric / 3/4 RPG viewpoint (diorama staging) |
+| Color | Warm earthy beiges, tans, browns; soft moss greens; cool lavender shadows |
+| Accents | Small saturated pops (red mushrooms, pink flowers, forge glow) |
+| Lighting | Soft diffused washes; warm hearth / cool window shafts on interiors |
+| Interiors | Cut-away rooms with the front wall removed (shop / forge style) |
 
 ## What SF2 Did Differently
 
-1. **Full painted screens** — each location is one illustration, not a tileset.
-2. **Characters walk on the painting** — collision is separate from the art.
-3. **Storybook mood** — Germanic medieval fairy tale, scanned watercolor, not realistic concept art.
-4. **Hotspots, not grids** — doors, exits, and examine points sit on the painted ground.
+1. **Full painted screens** — each location is one illustration.
+2. **Sprites on paintings** — characters are separate 2D sprites; collision is data.
+3. **Sketch + wash** — hand-drawn line under watercolor, storybook Germanic fantasy.
+4. **Hotspots, not grids** — doors and exits sit on the painted ground.
 
-## Anti-realism checklist
+## Anti-patterns (avoid)
 
-Push toward SF2 when art drifts toward modern realism:
-
-- Prefer **wet-on-wet washes** over crisp rendered materials
-- Prefer **chunky simplified buildings** over correct architectural perspective
-- Prefer **paper grain + pigment blooms** over clean digital polish
-- Prefer **soft purple/blue shadow washes** over black realistic shadows
-- Prefer **storybook charm** over photographic detail
+- Photoreal architecture, foliage, or lighting
+- Clean modern digital illustration without paper grain / sketch lines
+- Overly naive “children’s book blob” forms with no underdrawing
+- Harsh pure-black outlines or anime cel shading
+- Tile seams or repeating texture sheets as the hero background
 
 ## Sample Palette Anchors
 
 ```
-Ground / parchment   #C4A574  #E8DCC4
-Foliage              #6B8F5E  #7A9E6E
-Timber / roofs       #6B4A32  #B86B4A  #A67A9A
-Stone                #8A8A86  #8A8790
-Water / sky          #7BA3B0  #A8C4C8
-Shadow               #7A7088  #6E6A62
-Lantern / warm light #E8B86A  #D4B896
+Stone / path         #B8A078  #C4A882
+Foliage / moss       #6E8B5E  #7A9E6E
+Timber / roofs       #6B4A32  #B86B4A
+Accent mushroom/red  #C43A3A
+Accent flower        #7A5A9A  #C45A6A
+Shadow (cool)        #7A6A78  #8A7A6A
+Hearth glow          #E07030
+Window light         #E8E4D8
 ```
 
 ## Production Pipeline
 
-1. **Concept** — thumbnail composition: path, landmarks, exits.
-2. **Paint** — traditional watercolor or digital brushes that mimic wet media (stylized, not realist).
-3. **Scan / export** — target ~1536×1024 (or higher for remaster-style).
-4. **Author data** — `data/maps/<id>.json` with spawn, walkable regions, hotspots.
-5. **Collision** — start with polygons; later paint an alpha walk-mask.
-6. **Preview** — drop into `tools/map-viewer` to check readability at game scale.
+1. **Concept** — thumbnail: path, landmarks, exits.
+2. **Sketch** — light brownish underdrawing.
+3. **Wash** — watercolor / wet-media brushes; keep paper grain.
+4. **Export** — ~1536×1024 (or higher).
+5. **Author data** — `data/maps/<id>.json` spawn, walk regions, hotspots.
+6. **Preview** — `tools/map-viewer` journey walkthrough.
 
 ## Map Types in This Repo
 
 | Type | Purpose | Sample |
 | --- | --- | --- |
-| `town` | Shops, inns, story hubs | Havenbrook, Millhaven |
+| `town` | Courtyards, hubs | Havenbrook, Millhaven |
 | `field` | Travel + encounters | Whisperwood, Frostpass |
-| `castle` | Court / dungeon hubs | Ironveil Castle |
-| `overworld` | Region atlas linking screens | Westmarch |
+| `castle` | Court hubs | Ironveil Castle |
+| `interior` | Cut-away shops | Emberhall Forge |
+| `overworld` | Region atlas | Westmarch |
 
 ## Do / Don't
 
 **Do**
-- Leave clear open ground for walking
-- Use soft atmospheric depth (mist, distant washes)
-- Keep exits readable (roads, gates, bridges)
-- Keep forms charming and simplified
+- Keep open walkable ground readable
+- Use sketch + wash together
+- Leave clear exits (stairs, archways, path mouths)
 
 **Don't**
-- Drift into photoreal buildings, foliage, or lighting
-- Cover the first read of the scene with UI chrome
-- Use bright saturated “fantasy game” neon
-- Rely on tile seams or repeating patterns in the hero background
+- Drift into photoreal or glossy digital painting
+- Hide the path under clutter
+- Put UI chrome into the background art

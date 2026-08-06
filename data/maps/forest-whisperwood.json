@@ -2,9 +2,9 @@
   "id": "forest-whisperwood",
   "name": "Whisperwood",
   "type": "field",
-  "description": "A winding forest path under a soft canopy. A creek and footbridge break the green hush — classic SF2 field-screen energy.",
+  "description": "A rocky canyon path with mossy ledges, a fallen log, and bright mushrooms — classic SF2 field-screen energy.",
   "style": "handpainted-watercolor",
-  "inspiredBy": "SaGa Frontier 2 forest / field backgrounds",
+  "inspiredBy": "SaGa Frontier 2 outdoor field / cave-mouth path screens",
   "background": {
     "image": "assets/maps/samples/forest-whisperwood/background.png",
     "preview": "assets/maps/samples/forest-whisperwood/preview.jpg",
@@ -12,60 +12,48 @@
     "width": 1536,
     "height": 1024
   },
-  "spawn": { "x": 0.18, "y": 0.70 },
+  "spawn": { "x": 0.48, "y": 0.78 },
   "walkableRegions": [
     {
       "id": "main-path",
-      "label": "Forest path",
+      "label": "Canyon path",
       "polygon": [
-        [0.08, 0.68],
-        [0.35, 0.62],
-        [0.55, 0.58],
-        [0.78, 0.52],
-        [0.92, 0.48],
-        [0.92, 0.62],
-        [0.75, 0.68],
-        [0.50, 0.74],
-        [0.30, 0.78],
-        [0.08, 0.80]
-      ]
-    },
-    {
-      "id": "bridge",
-      "label": "Footbridge",
-      "polygon": [
-        [0.48, 0.52],
-        [0.62, 0.50],
-        [0.62, 0.60],
-        [0.48, 0.62]
+        [0.28, 0.82],
+        [0.55, 0.70],
+        [0.62, 0.48],
+        [0.58, 0.28],
+        [0.70, 0.28],
+        [0.72, 0.50],
+        [0.68, 0.74],
+        [0.42, 0.90]
       ]
     }
   ],
   "hotspots": [
     {
-      "id": "exit-west",
+      "id": "exit-havenbrook",
       "label": "To Havenbrook",
       "type": "exit",
-      "x": 0.08,
-      "y": 0.72,
+      "x": 0.38,
+      "y": 0.88,
       "radius": 0.05,
       "target": "town-havenbrook"
     },
     {
-      "id": "exit-east",
+      "id": "exit-frostpass",
       "label": "To Frostpass",
       "type": "exit",
-      "x": 0.92,
-      "y": 0.52,
+      "x": 0.62,
+      "y": 0.24,
       "radius": 0.05,
       "target": "mountain-frostpass"
     },
     {
-      "id": "creek",
-      "label": "Shallow creek",
+      "id": "mushrooms",
+      "label": "Spotted mushrooms",
       "type": "examine",
-      "x": 0.55,
-      "y": 0.58,
+      "x": 0.42,
+      "y": 0.55,
       "radius": 0.04,
       "target": null
     }
@@ -76,13 +64,12 @@
     "table": "forest-common"
   },
   "palette": {
-    "foliage": "#6B8F5E",
-    "trunk": "#6B5344",
-    "path": "#BFA887",
-    "water": "#7BA3B0",
-    "mist": "#C5CBBE",
-    "shadow": "#4A5548"
+    "rock": "#A89070",
+    "moss": "#6E8B5E",
+    "mushroom": "#C43A3A",
+    "flower": "#7A5A9A",
+    "path": "#BFA887"
   },
-  "mood": "hushed, dappled light, soft mist",
+  "mood": "enclosed path, whimsical nature, soft washes",
   "musicCue": "field-forest"
 }
